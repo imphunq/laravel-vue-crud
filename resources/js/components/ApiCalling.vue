@@ -67,7 +67,7 @@
               >
             </td>
             <td v-if="!product.isEdit">
-              <button class="btn btn-primary" @click="selecteProduct(product)">Edit</button>
+              <button class="btn btn-warning" @click="selecteProduct(product)">Edit</button>
               <button class="btn btn-danger" @click="deleteProduct(product, index)">Delete</button>
             </td>
             <td v-else>
