@@ -1,6 +1,6 @@
 <template>
   <div class="api-calling container mt-5">
-    <h1>Create Product</h1>
+    <h1>Create Products</h1>
     <transition name="fade">
       <div
         v-if="error"
