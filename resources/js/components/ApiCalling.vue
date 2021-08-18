@@ -1,6 +1,6 @@
 <template>
   <div class="api-calling container mt-5">
-    <h1>Create Product</h1>
+    <h1>Create Products</h1>
     <transition name="fade">
       <div
         v-if="error"
@@ -67,7 +67,7 @@
               >
             </td>
             <td v-if="!product.isEdit">
-              <button class="btn btn-primary" @click="selecteProduct(product)">Edit</button>
+              <button class="btn btn-warning" @click="selecteProduct(product)">Edit</button>
               <button class="btn btn-danger" @click="deleteProduct(product, index)">Delete</button>
             </td>
             <td v-else>
